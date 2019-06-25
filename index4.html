@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tabuada</title>
+<link rel="stylesheet" href="class.css">
+</head>
+<body>
+<table>
+        <tr>
+        <td>Nome:</td>
+        <td>
+        <input class="form_campos" type="text" name="nome" size="34">
+        </td>
+        </tr>
+        <tr>
+        <td>Endereço</td>
+        <td>
+        <input class="form_campos" type="text" name="endereco" size=34>
+        </td>
+        </tr>
+        <tr>
+        <td>CEP:</td>
+        <td>
+        <input class="form_campos" type="text" name="cep" size="34">
+        </td>
+        </tr>
+        <tr>
+                <td>Cidade:</td>
+                <td>
+                <select class="form_campos" name="cidade">
+                <option class="form_campos" value="Joinville" selected>Joinville</option>
+                <option class="form_campos" value="Garuva">Garuva</option>
+                <option class="form_campos" value="Araquari">Araquari</option>
+                <option class="form_campos" value="Maringa">Maringa</option>
+                <option class="form_campos" value="Itinga">Itinga</option>
+                <option class="form_campos" value="Outros">Outros</option>
+                </select>
+                </td>
+        </tr>
+        <tr>
+        <td>Sexo:</td>
+        <td>
+            <form>
+        <input type="radio" name="sexo" name="masculino">Masculino<br>
+        <input type="radio" name="sexo" name="feminino">feminino<br>
+            </form>    
+    </td>
+    </tr>
+
+<tr>
+    <td>Tipo de Cartão de Crédito</td>
+    <td>
+            <input type="checkbox" name="visa" value="Visa">Visa<input class="form_campos" type="text" name="numero" size=34><br>
+            <input type="checkbox" name="MasterCard" value="MasterCard">Master Card<input class="form_campos" type="text" name="numero" size=34><br>
+            <input type="checkbox" name="OuroCard" value="OuroCard">Ouro Card<input class="form_campos" type="text" name="numero" size=34><br>
+    </td>
+</tr>
+
+        <tr>
+    <td colspan="2">
+    <br>
+    <div class="div_botao">
+    <input class="form_botao" type="submit" name="Enviar" value="Enviar Mensagem">
+    <input class="form_botao" type="reset" name="Limpar" value="Limpar">
+    </div>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>
